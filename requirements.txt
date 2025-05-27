@@ -1,8 +1,10 @@
 fastapi
-uvicorn[standard]
-pydantic[email]
+uvicorn
+pydantic
 motor
 python-jose
 dnspython
 python-dotenv
 PyJWT
+dnspython==2.4.2
+certifi
