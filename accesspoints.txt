@@ -1,0 +1,24 @@
+POST /evaluation-service/register
+Purpose: Register a new user.
+Request Body (JSON):
+{
+  "email": "user@example.com",
+  "name": "John Doe",
+  "mobileNo": "9876543210",
+  "githubUsername": "johndoe",
+  "rollNo": "12345",
+  "collegeName": "XYZ University",
+  "accessCode": "AC123"
+}
+
+POST /evaluation-service/auth
+Purpose: Authenticate user and generate JWT access token.
+Request Body (JSON):
+{
+  "email": "user@example.com",
+  "name": "John Doe",
+  "rollNo": "12345",
+  "accessCode": "AC123",
+  "clientID": "xxxxxxxx",
+  "clientSecret": "xxxxxxxx"
+}
