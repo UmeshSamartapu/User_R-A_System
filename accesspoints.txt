@@ -17,7 +17,10 @@ Request Body (JSON):
 {
   "email": "user@example.com",
   "name": "John Doe",
+  "mobileNo": "9876543210",
+  "githubUsername": "johndoe",
   "rollNo": "12345",
+  "collegeName": "XYZ University",
   "accessCode": "AC123",
   "clientID": "xxxxxxxx",
   "clientSecret": "xxxxxxxx"
