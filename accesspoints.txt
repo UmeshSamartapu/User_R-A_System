@@ -1,4 +1,4 @@
-POST /evaluation-service/register
+POST https://user-r-a-system.onrender.com/evaluation-service/register
 Purpose: Register a new user.
 Request Body (JSON):
 {
@@ -11,7 +11,7 @@ Request Body (JSON):
   "accessCode": "AC123"
 }
 
-POST /evaluation-service/auth
+POST https://user-r-a-system.onrender.com/evaluation-service/auth
 Purpose: Authenticate user and generate JWT access token.
 Request Body (JSON):
 {
