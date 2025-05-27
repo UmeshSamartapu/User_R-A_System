@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic[email]
+motor
+python-jose
+dnspython
+python-dotenv
+PyJWT

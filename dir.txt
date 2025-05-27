@@ -1,0 +1,16 @@
+Registration_and_Authentication_API/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── models.py
+│   ├── db.py
+│   ├── auth.py
+│   └── routes.py
+├── .env
+├── requirements.txt
+├── render.yaml
+└── README.md
+
+local run:
+uvicorn app.main:app --host 0.0.0.0 --port 10000 
