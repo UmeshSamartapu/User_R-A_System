@@ -25,3 +25,10 @@ Request Body (JSON):
   "clientID": "xxxxxxxx",
   "clientSecret": "xxxxxxxx"
 }
+
+You will receive a response 
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ4MzMzMTYxfQ.M8zYeJ0WZDeCqj1rF4qX12MFwiVHkgvXNWup-y12nic",
+    "token_type": "bearer",
+    "expires_in": 1748333161
+}
