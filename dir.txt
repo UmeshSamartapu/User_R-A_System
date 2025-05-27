@@ -26,3 +26,11 @@ MONGODB_URI: your Mongo URI
 JWT_SECRET_KEY: a long secure key
 JWT_ALGORITHM: HS256
 JWT_EXPIRE_MINUTES: 60
+
+
+can access:
+
+https://user-r-a-system.onrender.com/evaluation-service/register
+https://user-r-a-system.onrender.com/evaluation-service/auth
+https://user-r-a-system.onrender.com/docs
+https://user-r-a-system.onrender.com/openapi.json
